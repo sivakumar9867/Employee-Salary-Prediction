@@ -58,32 +58,32 @@ The target variable represents whether the individual's income is:
 
 Accuracy:
 
-**86.17%**
+**82.69%**
 
 ### 2. Logistic Regression
 
 Accuracy:
 
-**81.91%**
+**82.73%**
 
 ### 3. Multi-Layer Perceptron (MLP)
 
 Accuracy:
 
-**86.17%**
+**85.18%**
 
-## 📊 Results
+## Model Results
+
+## Model Results
 
 | Model | Accuracy |
 |---|---:|
-| KNN | 86.17% |
-| Logistic Regression | 81.91% |
-| MLP | 86.17% |
+| K-Nearest Neighbors (KNN) | 82.69% |
+| Logistic Regression | 82.73% |
+| Multi-Layer Perceptron (MLP) | 85.18% |
 
-KNN and MLP achieved the highest accuracy among the tested models, with an accuracy of 86.17%.
+The Multi-Layer Perceptron (MLP) achieved the highest accuracy among the tested models, with an accuracy of **85.18%**.
 
-
-```markdown
 ## 📂 Project Files
 
 ```text
@@ -93,4 +93,3 @@ Employee-Salary-Prediction/
 ├── adult.csv
 ├── requirements.txt
 └── README.md
-
