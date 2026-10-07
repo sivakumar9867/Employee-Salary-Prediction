@@ -4,7 +4,7 @@ A machine learning project that predicts whether an individual's annual income i
 
 ## 📌 Project Overview
 
-This project uses the Adult Census Income dataset to build machine learning classification models for salary prediction.
+This project uses the Adult Census Income dataset to build machine learning classification models for income classification.
 
 The project includes data preprocessing, categorical feature encoding, feature scaling, train-test splitting, model training, and accuracy evaluation.
 
@@ -80,12 +80,17 @@ Accuracy:
 | Logistic Regression | 81.91% |
 | MLP | 86.17% |
 
-KNN and MLP achieved the highest accuracy among the models tested, with an accuracy of approximately **86.17%**.
+KNN and MLP achieved the highest accuracy among the tested models, with an accuracy of 86.17%.
 
+
+```markdown
 ## 📂 Project Files
 
 ```text
 Employee-Salary-Prediction/
 │
 ├── Employee_salary_Prediction.ipynb
+├── adult.csv
+├── requirements.txt
 └── README.md
+
